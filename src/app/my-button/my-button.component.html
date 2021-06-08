@@ -1,0 +1,6 @@
+<section>
+  <!--Si lo hacemos asi se ejecuta el click antes que la directiva
+    <button type="button" (click)="save()" appConfirmationPanel>Guardar</button>
+  -->
+    <button type="button" [confirm]="save" appConfirmationPanel>Guardar</button>
+</section>
